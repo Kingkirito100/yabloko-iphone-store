@@ -23,7 +23,7 @@ const products: Product[] = [
     color: "Cosmic Orange",
     price: 94990,
     oldPrice: 119990,
-    image: "/iphone-17-pro.jpg",
+    image: "/catalog-iphone-17-pro.png",
     tag: "Выбор экспертов",
     tone: "orange",
     specs: ["6,3″ OLED · 120 Гц", "A19 Pro", "Камера 48+48+48 Мп", "До 33 ч видео"],
@@ -47,7 +47,7 @@ const products: Product[] = [
     color: "Cloud White",
     price: 74990,
     oldPrice: 94990,
-    image: "/iphone-air.jpg",
+    image: "/catalog-iphone-air.png",
     tag: "Самый тонкий",
     tone: "silver",
     specs: ["6,5″ OLED · 120 Гц", "Корпус 5,6 мм", "Камера 48 Мп", "Вес 165 г"],
@@ -59,7 +59,7 @@ const products: Product[] = [
     color: "Deep Blue",
     price: 104990,
     oldPrice: 134990,
-    image: "/iphone-17-pro.jpg",
+    image: "/catalog-iphone-17-pro-max.png",
     tag: "Максимум",
     tone: "navy",
     specs: ["6,9″ OLED · 120 Гц", "A19 Pro", "Зум оптического качества 8×", "До 39 ч видео"],
@@ -180,7 +180,7 @@ export default function Storefront() {
         <div className="hero-visual">
           <div className="hero-halo" />
           <span className="float-pill pill-top">A19 Pro <small>Новый уровень мощности</small></span>
-          <img src="/iphone-17-pro.jpg" alt="Оранжевый iPhone 17 Pro, вид спереди и сзади" />
+          <img src="/catalog-iphone-17-pro.png" alt="iPhone 17 Pro без фоновой подложки" />
           <span className="float-pill pill-bottom">от 94 990 ₽ <small>или 7 916 ₽ / мес.</small></span>
           <span className="vertical-note">СОЗДАН ДЛЯ БОЛЬШЕГО</span>
         </div>
